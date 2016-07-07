@@ -1,0 +1,79 @@
+body{
+  background-color: #e6e6e6;
+}
+
+div{
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+p {
+  font-size: 200%;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form{
+  padding: 30px 10px 25px;
+  background-color: white;
+}
+
+input{
+  height: 25px;
+  width: 250px;
+  padding: 10px;
+  border: None;
+  border-bottom: solid 2px black;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: solid 2px red;
+}
+
+hr{
+  color: #e6e6e6;
+  background-color: #e6e6e6;
+  height: 1px;
+  margin-top: 50px;
+}
+
+button{
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: white;
+  margin: 20px 40px;
+  transition: background-color 0.5s;
+  transition: color: 0.5s;
+}
+
+.button1{
+  width: 195px;
+  background-color: #DC143C;
+  border-color: #DC143C;
+}
+
+.button2{
+  background-color: #00008B;
+  border-color: #00008B;
+}
+
+button{
+  outline: 0 none;
+}
+
+.button1:hover{
+  background-color: white;
+  color: #DC143C;
+  cursor: pointer;
+}
+
+.button2:hover{
+  background-color: white;
+  color: #00008B;
+  cursor: pointer;
+}

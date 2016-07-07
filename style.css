@@ -2,7 +2,7 @@ body{
   background-color: #e6e6e6;
 }
 
-div{
+.Main_body{
   position: relative;
   top: 100px;
   margin-left: auto;
@@ -17,7 +17,7 @@ p {
   margin-right: auto;
 }
 
-form{
+.Interact{
   padding: 30px 10px 25px;
   background-color: white;
 }
@@ -27,19 +27,19 @@ input{
   width: 250px;
   padding: 10px;
   border: None;
-  border-bottom: solid 2px black;
+  border-bottom: solid 1px black;
 }
 
 input:focus{
     outline: none;
-    border-bottom: solid 2px red;
+    border-bottom: solid 1px red;
 }
 
 hr{
+  margin-top: 50px;
   color: #e6e6e6;
   background-color: #e6e6e6;
   height: 1px;
-  margin-top: 50px;
 }
 
 button{
@@ -47,33 +47,33 @@ button{
   border-radius: 4px;
   color: white;
   margin: 20px 40px;
+  outline: 0 none;
   transition: background-color 0.5s;
-  transition: color: 0.5s;
+  transition: color 0.5s;
+  cursor: pointer;
+  border: 0 none;
 }
 
-.button1{
+.Register{
   width: 195px;
   background-color: #DC143C;
-  border-color: #DC143C;
 }
 
-.button2{
+.Facebook{
   background-color: #00008B;
-  border-color: #00008B;
 }
 
-button{
-  outline: 0 none;
-}
-
-.button1:hover{
+button:hover{
   background-color: white;
+  padding: 9px;
+}
+
+.Register:hover{
   color: #DC143C;
-  cursor: pointer;
+  border: solid 1px #DC143C;
 }
 
-.button2:hover{
-  background-color: white;
+.Facebook:hover{
   color: #00008B;
-  cursor: pointer;
+  border: solid 1px #00008B;
 }
